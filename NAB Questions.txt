@@ -1,0 +1,77 @@
+-----------------------------------------------------
+@RestController
+class Employee{
+
+
+
+   @PostMapping{/url}
+   @ExceptionHandler
+   public String saveUserData(@RequestParam int)
+
+   {
+
+     // logic data;
+
+       return Response Body;
+  }
+---------------------------------------------------
+
+TreeMap<String,String> tree = new TreeMap<>();
+
+  tree.map("A","Shweta");
+  tree.map("A",null);
+
+----------------------------------------
+
+ interface Employee{
+   
+ default 
+ static
+ private 
+}
+  
+-------------------------------------------------
+
+Employee    Address to fetch
+
+RIGHT OUTER JOIN
+
+Select e.ename , a.address from Employee e RIGHT OUTER JOIN Address a where e.eid= a.eid ;
+
+
+-----------------------------------------------------
+
+Catch mein aisa kya likhe ki finally execute n ho
+
+Profilers
+
+Docker
+
+Fly-Weigh Dp
+
+If we are making any micro changes how we can deploy that change without deploying the complete things how we can just pick that specific part.
+
+
+-------------------------------------------------------------------
+
+
+KAFKA
+Idempotent
+Number of requests handling.
+Where you will mention in code?
+
+Failures in KAFKA.Lag handling.
+AWS mein m kaha koun si file mein outside we use to keep DB details.
+
+Out of memory.
+How have you manage that.
+Tools used.
+
+----------------------------------------------------------------------------
+
+
+
+
+
+
+
