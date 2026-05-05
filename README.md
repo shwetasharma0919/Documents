@@ -12,3 +12,6 @@ https://www.youtube.com/watch?v=nH2S2LV8k0I
 
 https://www.youtube.com/watch?v=c7hZPxBnDq4
 <img width="635" height="170" alt="image" src="https://github.com/user-attachments/assets/c94bef4a-6a9b-4be1-90d6-a82be82e2516" />
+
+
+NgRx
