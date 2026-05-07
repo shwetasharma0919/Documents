@@ -1,0 +1,48 @@
+Java
+Types of Memory Management in java
+Types of class loader
+Legacy Classes in Collection
+Collection and Collections
+Creational Pattern
+Comparator and Comparable
+HashMap & HashTable
+what is singleton and How to Break Singleton.
+what is immutable classes
+SOLID Principle
+How to Handle Multi threading.
+how we implement thread class and runnable interface.
+what is countdownlatch and cyclicbarrier.
+thread pool.
+functional programming and functional interface
+types of functional interface.
+what is future interface and what's it's uses.
+features added in java 8
+new feature added in java 17(seald class, permits and pattern matching using instanceof
+write a java 8 program to find the second highest salary from employee or from HR department.
+find the occurance of each character.
+convert into single list
+Exceltion Handeler
+what is the advantage of preparedStatement.
+Rentrant Lock.
+What is service registory and it's uses
+Types of injection
+Agile, Scrum
+service registory and it's uses.
+what is executer service(to handle multi threading).
+Service mesh.
+what is N+1 proble and hwo to handle it
+
+Microservice
+how to manage microservice communication and how it's communicate to each other.
+what is saga design pattern.
+what is choreography and orchestrator.
+what is spring cloud bust: use to change the configuration on run time
+how to apply pagination in springboot.
+Rate limiting in spring boot.
+how to handle service failure.
+how to secure microservice communication
+Junit Testing
+what is the difference in junit 4 and Junit 5.
+what is fign client and it's uses
+cloud ,
+which cloud us uses and what is it's specification

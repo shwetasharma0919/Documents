@@ -1,0 +1,87 @@
+Latest features of angular
+Component Binding
+test the angular application
+How do we start the application
+Routers where do we add the test.
+Rxjs opeartors difference between switch map and concat.
+Selector ,store actions in  state management in Ngrx
+ngDo Check
+Change detection cycle
+Component‑based architecture
+Two‑way data binding
+Dependency Injection
+RxJS & Observables
+Angular CLI
+Powerful forms (Reactive & Template)
+HTTP Client
+Built‑in routing
+How do we write template.
+How do we migrate from .css to scss
+Why do we use signals
+Modern Angular focuses on Standalone Components, Signals, Zoneless change detection, built‑in control flow, improved SSR, and better developer tooling—making applications faster, scalable, and easier to maintain.
+
+Signals
+Immutable data
+OnPush strategy
+
+ngDoCheck is a lifecycle hook that allows developers to implement custom change‑detection logic. It is useful when Angular’s default change detection cannot detect deep changes, but it must be used carefully because it runs during every change‑detection cycle and can impact performance.
+
+OperatorUseof()Emits valuesfrom()Converts array/promiseinterval()Emits periodicallytimer()Delayed emission
+
+ map
+✅ filter
+✅ switchMap
+✅ debounceTime
+✅ tap
+✅ catchError
+✅ combineLatest
+✅ forkJoin
+
+Async Pipe
+
+Selectors
+
+component binding communication
+Session management
+
+How do we implement services like GET POST
+2 methods to send data to backend
+Unit testing framework
+Debugging
+
+
+Query Parameters
+Path Parameters
+
+
+--------------------------------
+
+
+Explain about ng Do check 
+How Component Binding happens when there is no relation btwn components. 
+Change Detection cycle by angular 
+Features of Angular and now version 
+State Management 
+Observable and promise 
+Operators – switch map , concept 
+Geolocation API 
+HTML5 Positions and it's CSS properties 
+Change detection: Understand how Angular's change detection mechanism works and how to optimize it with OnPush strategy. 
+Dependency injection: Master Angular's hierarchical dependency injection system. 
+
+---------------------------------------------------------
+
+Difference between Observable and Promise, why not  
+Explain Lazy loading 
+Changes in latest version in Angular 
+Exchange data between child component to parent component 
+Ngrx Store explain how to implement in project
+Details discussion on previous project 
+Angular 5+( ngRx, RxJS) and Ionic Framework 
+Strong knowledge in Hybrid Mobile app development 
+Benifits State management ngrx usage 
+How do you manage session in angular 
+Routing done in project- Navigation, URL+PATH for component 
+Component binding({{}}, [],(),[()]) ,  
+Data communication 
+explain rxjs operators , asyn pipe, .subscribe, .pipe.
