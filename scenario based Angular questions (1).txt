@@ -1,0 +1,208 @@
+1) Own end-to-end Angular applications (design, development, upgrades, delivery) 
+
+Greenfield start 
+
+Scenario: You’re asked to build a new Angular app for internal users within 8 weeks. 
+Question: What are the first 5 decisions you make (architecture, routing, state, UI library, CI/CD), and why? 
+
+Module ownership 
+
+Scenario: You inherit an Angular app with 30+ modules and slow builds. 
+Question: How would you analyze the structure and reorganize modules without breaking delivery timelines? 
+
+Delivery planning 
+
+Scenario: A feature is requested with unclear requirements and multiple stakeholders. 
+Question: How do you break it down into milestones and ensure predictable delivery? 
+
+Production issue ownership 
+
+Scenario: After release, users report a blank screen on some routes. 
+Question: What steps do you follow to debug quickly and prevent recurrence? 
+
+Performance ownership 
+
+Scenario: Initial load time is high and Lighthouse score is poor. 
+Question: What are your top actions in Angular to improve performance (bundles, lazy loading, change detection, SSR)? 
+
+ 
+ 
+
+2) Scenario-based problem solving using Angular, RxJS, NgRx (when to use them and when not to) 
+
+RxJS vs simple logic 
+
+Scenario: You need to combine 2 API calls and show a merged result. 
+Question: When would you use RxJS operators vs doing it inside a component with async/await? 
+
+NgRx necessity 
+
+Scenario: A form page and a summary page need shared data. 
+Question: Would you use NgRx, a shared service, or router state? Explain your choice. 
+
+UI state vs global state 
+
+Scenario: A modal open/close and local dropdown selections exist. 
+Question: Would you store this in NgRx store? Why or why not? 
+
+Complex async workflow 
+
+Scenario: Search input triggers API calls; you must cancel previous calls, debounce, and show loading state. 
+Question: How would you design this using RxJS / NgRx Effects? 
+
+Error and retry 
+
+Scenario: API fails intermittently; you need retry with backoff and final user-friendly message. 
+Question: How do you design this flow (RxJS operators/Effect + reducer state)? 
+
+ 
+ 
+
+Upgrade plan 
+
+Scenario: App is on Angular 10 and must go to latest within 2 months. 
+Question: What’s your step-by-step upgrade strategy and how do you reduce risk? 
+
+Breaking changes 
+
+Scenario: After upgrade, builds fail due to deprecated APIs and library mismatches. 
+Question: How do you triage issues and decide upgrade order for dependencies? 
+
+AngularJS migration 
+
+Scenario: Old AngularJS app must migrate gradually (no big bang rewrite). 
+Question: What approach do you propose (hybrid, strangler pattern), and what are the risks? 
+
+Testing strategy during migration 
+
+Scenario: There are minimal automated tests. 
+Question: What minimum test coverage do you add before upgrade, and where? 
+
+Stakeholder communication 
+
+Scenario: Product wants new features while upgrade is ongoing. 
+Question: How do you plan parallel workstreams without creating major merge conflicts? 
+
+ 
+ 
+
+4) Expert RxJS operators & state management (NgRx Store/Effects/Selectors) for production use cases 
+
+Operator choice 
+
+Scenario: User clicks “Save” multiple times. Only the latest should be processed. 
+Question: Which operator do you use in Effect (switchMap/exhaustMap/concatMap/mergeMap) and why? 
+
+Caching 
+
+Scenario: Same reference data (countries, roles) is requested across pages. 
+Question: How do you design caching using NgRx store/selectors and avoid repeat API calls? 
+
+Derived state 
+
+Scenario: You need computed values (filtered list, totals, permissions) based on store data. 
+Question: How do you implement this using selectors and why is it better than computing in components? 
+
+Race condition 
+
+Scenario: Two actions dispatch fast (load user + load roles), but roles needed before mapping permissions. 
+Question: How do you handle ordering/dependency in Effects cleanly? 
+
+Error handling in store 
+
+Scenario: API fails; UI must show error banner + allow retry + log error. 
+Question: How do you model error state in store and implement retry pattern? 
+
+ 
+ 
+
+5) Build accessible, high-quality UI (focus, keyboard nav, ARIA) + convert Figma to code 
+
+Keyboard navigation 
+
+Scenario: A dropdown component must support keyboard navigation and screen reader. 
+Question: What behaviors do you implement (tab, arrow keys, escape) and how do you test it? 
+
+Focus management 
+
+Scenario: A modal opens; focus should move inside and return to trigger when closed. 
+Question: How do you implement focus trap and return focus reliably? 
+
+ARIA usage 
+
+Scenario: A custom accordion is built (not HTML <details>). 
+Question: Which ARIA roles/attributes do you use and why? 
+
+Figma → pixel-perfect 
+
+Scenario: Designer shares Figma with spacing tokens and typography scale. 
+Question: How do you translate that to reusable Angular components and CSS variables? 
+
+Accessibility bug 
+
+Scenario: Screen reader reads wrong label for input fields and form errors. 
+Question: How do you fix labeling and error association? 
+
+ 
+ 
+
+6) Solid fundamentals: HTML, CSS, JavaScript (can work without frameworks when required) 
+
+CSS layout 
+
+Scenario: A two-column layout must become single column on mobile, with sticky header. 
+Question: How do you do this using CSS grid/flex and media queries? 
+
+CSS debugging 
+
+Scenario: A button is not clickable due to overlay/stacking context issues. 
+Question: How do you debug with z-index, position, and pointer-events? 
+
+JS fundamentals 
+
+Scenario: You need to debounce user input without RxJS (plain JS). 
+Question: How do you implement debouncing and cancellation? 
+
+DOM + events 
+
+Scenario: You build a lightweight autocomplete without Angular. 
+Question: How would you manage event listeners, cleanup, and accessibility? 
+
+Performance 
+
+Scenario: Large table renders 5,000 rows and lags. 
+Question: What HTML/JS/CSS techniques do you use (virtualization, pagination, reflow avoidance)? 
+
+ 
+ 
+
+7) Common real-world flows (OTP authentication, RBAC, error handling) 
+
+OTP flow 
+
+Scenario: OTP screen has timer, resend, max retries, and session expiry. 
+Question: How do you model states and transitions cleanly in Angular? 
+
+Security consideration 
+
+Scenario: OTP is verified; token returned; refresh token exists. 
+Question: Where do you store tokens and how do you protect routes? 
+
+Role-based access 
+
+Scenario: Roles decide which routes and buttons are visible. 
+Question: How do you implement RBAC using route guards + directives + server-driven permissions? 
+
+Global error handling 
+
+Scenario: API returns 401, 403, 500, timeout. 
+Question: How do you design interceptors + user messages + logging? 
+
+Resilience 
+
+Scenario: Network drops mid-form submit. 
+Question: How do you design retries, offline messaging, and idempotency-safe submission? 
+
+ 
+
+ 
