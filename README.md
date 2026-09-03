@@ -41,3 +41,7 @@ Geolocation API
 HTML5 Positions and it's CSS properties 
 Change detection: Understand how Angular's change detection mechanism works and how to optimize it with OnPush strategy. 
 Dependency injection: Master Angular's hierarchical dependency injection system. 
+
+-----------------------------------------
+
+dbrps6000r09101992  Iris Form 16
